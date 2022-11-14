@@ -192,61 +192,81 @@ a{
     body{
         height: 100vh;
     }
-    #menueItems{
-        margin: 27px 0px 0px 130px;
-    }
     #nav{
-        height: 20vh;
+        height: 10vh;
+    }
+    #menueItems{
+      margin: 70px 0px 0px 50px;
+      display: none;
+    }
+    #postProp{
+      margin: -10px 0px 0px 140px;
+      display: none;
     }
     #logo{
-        width: 105px; 
-        height: 11vh;
-        margin: 25px 0px 0px 10px;
+      width: 150px;
+      margin: 10px 0px 0px 10px;
+      height: 10vh;
     }
     #nameLogo{
-        margin: 20px 0px 0px 0px; 
-        font-size: larger;
+      font-size: x-large;
+      margin: 15px 0px 0px 0px;
     }
-    #itemLeft{
-        margin: 0px 0px 0px -40px;
-        column-gap: 40px;
 
-    }
-    .aTag {
+    .aTag{
         font-size: medium;
     }
     
-    #itemRight{
-        margin: 0px 0px 0px 110px;
-        column-gap: 40px;
+    #itemLeft{
+      margin: 0px 0px 0px -80px;
+      column-gap: 30px;
 
-    }
-    
-    #hr{
-        margin: -25px 0px 0px -40px;
-        width: 338px;
-    }
-    #postProp{
-        margin: -30px 0px 0px 297px;
-    }
-    #titleDiv{
-        margin: 130px 0px 0px 57px;
-        font-size: small;
-    }
-    #filterDiv{
-        margin: -10px 0px 0px 404px; 
-        width: 55px;
-    }
-    #searchBar{
-        margin: 0px 0px 0px 60px;
-        width: 395px;
-    }
-    #latestPostingDiv{
-        margin: -30px 0px 0px 160px;
-    }
-    #downArrow{
-        height: 4.5vh;
-    }
+  }
+  #itemRight{
+      margin: 0px 0px 0px 50px;
+      column-gap: 20px;
+
+  }
+  #hr{
+      width: 300px;
+      margin: -17px 0px 0px -78px;
+  }
+  #searchBar{
+      width: 260px;
+      margin: 0px 0px 0px 30px;
+  }
+  #titleDiv{
+      margin: 23% 0% 0% 8%;
+      font-size: small;
+      width: 250px;
+  }
+  #filterDiv{
+      margin: 10px 0px 0px 210px; 
+      width: 55px;
+      /* background-color: aqua; */
+  }
+  #latestPostingDiv{
+      margin: -40% 0% 0% 22.5%;
+      width: 200px;
+  }
+  #downArrow{
+      margin: 0px 0px 0px 80px;
+  }
+  .icon {
+      width: 10%;
+      position: absolute;
+      margin: -11% 0% 0% 85%;
+      display: block;
+      
+}
+#mobileDiv{
+    /* display: none; */
+    background-color: rgb(22, 22, 22);
+    width: 50%;
+    height: 23vh;
+    text-align: center;
+    margin: 0% 0% 0% 50%;
+}
   }
 
   @media (max-width: 320px) {
