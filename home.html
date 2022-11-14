@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slik Road - Home</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="nav">
+                <!-- logo -->
+                <div id="logo">
+                    <!-- logo name  -->
+                    <!-- {{ logoName }} -->
+                    <h1 id="nameLogo">MAYO INC</h1>
+                </div>
+                <!-- menue items  -->
+                <div id="menueItems">
+                        <div class="items" id="itemLeft">
+                            <a class="aTag" id="home" href="">Home</a>
+                            <a class="aTag" id="prop" href="">Our Properties</a>
+                        </div>
+                        
+                        <div class="items" id="itemRight">
+                            <a class="aTag" id="login" href="">Login</a>
+                            <!-- <hr> --> 
+                            <a class="aTag" id="reg" href="">Register</a>
+                        </div>
+                        <hr id="hr">
+                </div>
+                <button id="postProp">Post a Property</button>
+                <!-- <a href="javascript:void(0);" id="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a> -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div id="searchDiv">
+            <div id="centerMenue">
+                <div id="rightSide">
+                    <div class="filter" id="filterIcon"><svg id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M3.9 54.9C10.5 40.9 24.5 32 40 32H472c15.5 0 29.5 8.9 36.1 22.9s4.6 30.5-5.2 42.5L320 320.9V448c0 12.1-6.8 23.2-17.7 28.6s-23.8 4.3-33.5-3l-64-48c-8.1-6-12.8-15.5-12.8-25.6V320.9L9 97.3C-.7 85.4-2.8 68.8 3.9 54.9z"/></svg></div>
+                    <div class="filter" id="filterText"><h5>FILTER</h5></div>
+                </div>
+                <div id="leftSide">
+                    <div class="leftMenue" id="all"><h5>All</h5></div>
+                    <div class="leftMenue" id="rent"><h5>Rent</h5></div>
+                    <div class="leftMenue" id="sale"><h5>Sale</h5></div>
+                </div>
+            </div>
+
+            <div id="inputDiv">
+                <input id="searchBar" type="text" placeholder="        KEYWORD">
+            </div>
+            
+            <div id="dropDownCover">
+                <div class="dropdown">
+                    <select name="Category" id="category">
+                        <option value="category 1">     Category</option>
+                        <option value="category 1">category 1</option>
+                        <option value="category 1">category 2</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <select name="Location" id="ocation">
+                        <option value="location 1">     Location</option>
+                        <option value="location 2">location 1</option>
+                        <option value="location 3">location 2</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <select name="No. of Bedrooms" id="bedrooms">
+                        <option value="Bedroom #1">     No. of Bedrooms</option>
+                        <option value="Bedroom #2">Bedroom #2</option>
+                        <option value="Bedroom #3">Bedroom #3</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <select name="No. of Bathrooms" id="bathrooms">
+                        <option value="Bathroom #1">     No. of Bathrooms</option>
+                        <option value="Bathroom #2">Bathroom #2</option>
+                        <option value="Bathroom #3">Bathroom #3</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="prices">
+                        <p id="price">Price: $00.00 - $100,000.00</p>
+                        <input type="range" min="00.00" max="10,000.00" value="100" id="priceRange">
+                    </label>
+                    
+                </div>
+                <div class="dropdown">
+                    <button id="findIt">Find it</button>
+                </div>
+            </div>
+        </div>
+       
+        <div id="latestPostingDiv">
+            <div id="latestPostingText">
+                <h4>OUR LATEST POSTING</h4>
+            </div>
+            <div id="downArrow">
+                <p id="arrow">v</p>
+            </div>
+            <!-- <br>
+            <br>
+            <br> -->
+        </div>
+    </main>
+    <footer></footer>
+
+</body>
+</html>
