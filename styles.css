@@ -121,7 +121,7 @@ a{
     margin: 5% 0% 0% 40%;
     /* background-color: #4168e0; */
 }
-#mobileIcon{
+#mobileViewIcon{
     display: none;
 }
 #mobileDiv{
@@ -170,13 +170,13 @@ a{
     }
     #logo{
       width: 130px;
-      margin: 14px 0px 0px 20px;
-      height: 12vh;
+      margin: 17px 0px 0px 20px;
+      height: 11vh;
     }
     #nameLogo{
         width: 100%;
       font-size: x-large;
-      margin: 11px 110px 0px 0px;
+      margin: 8px 110px 0px 0px;
       /* background-color: aqua; */
     }
 
