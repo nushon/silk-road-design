@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slik Road - Home</title>
+    <link rel="stylesheet" href="ourprop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/css/brands.css">
+    <link rel="stylesheet" href="/assets/css/solid.css">
+    <link rel="stylesheet" href="/assets/css/regular.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="nav">
+                <!-- logo -->
+                <div id="logo">
+                    <!-- logo name  -->
+                    <!-- {{ logoName }} -->
+                    <h1 id="nameLogo"><b>MAYO INC</b></h1>
+                </div>
+                <!-- menue items  -->
+                <div id="menueItems">
+                        <div class="items" id="itemLeft">
+                            <a class="aTag" id="home" href="/home.html">Home</a>
+                            <a class="aTag" id="prop" href="/ourprop.html"><b>Our Properties</b></a>
+                        </div>
+                        
+                        <div class="items" id="itemRight">
+                            <a class="aTag" id="login" href="/login.html">Login</a>
+                            <a class="aTag" id="reg" href="/register.html">Register</a>
+                        </div>
+                        <hr id="hr">
+                        <div id="homeAndHouseDiv">
+                            <div id="homeDiv">
+                                <a href="" id="homeA">Home</a>
+                            </div>
+                            <div class="iconDiv">
+                                <i id="angleRight" class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div id="housesDiv">
+                                <a href="" id="housesA"><b>Houses</b></a>
+                            </div>
+                        </div>
+                </div>
+                
+                <button id="postProp">Post a Property</button>
+                
+            </div>
+
+                <a href="javascript:void(0);" id="mobileIcon" onclick="mobileView()">
+                    <i class="fa-solid fa-bars" id="mobileViewIcon"></i> 
+                    <!-- <svg class="mobileIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg> -->
+                </a>
+           
+        </nav>
+        <div id="mobileDiv">
+            <a class="aTag" id="home" href="">Home</a> <br>
+            <a class="aTag" id="prop" href="">Our Properties</a> <br>
+            <a class="aTag" id="login" href="">Login</a> <br>
+            <a class="aTag" id="reg" href="">Register</a> <br>
+            <a class="aTag" id="postPropMobile" href="">Post a Property</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="mainDiv">
+            <div id="searchCard">Search Card</div>
+            <div id="itemsCard">
+                <div id="middleNav">
+                    <div class="middleNavItems" id="tabs">
+                        <div class="tabs"><h3 id="allTextTab">All</h3></div>
+                        <div class="tabs"><h3 id="viewsTextTab">Views</h3></div>
+                        <div class="tabs"><h3 id="saleTextTab">Sale</h3></div>
+                    </div>
+                    <div class="middleNavItems" id="view">
+                        <div id="viewTextDiv"><h3 id="viewText">View</h3></div>
+                        <div id="allIconDiv">
+                            <div id="viewListDiv" >
+                                <i id="listView" class="fa-solid fa-bars"></i>
+                            </div>
+                            <div id="viewGridDiv">
+                                <i id="gridView" class="fa-solid fa-grip"></i>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="middleNavItems" id="sort">
+                        <div>Sort By</div>
+                        <div>
+                            <input id="inputField" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div id="middleMain">
+                    <div id="displayHouses">
+                        <div class="houses">House #1</div>
+                        <div class="houses">House #2</div>
+                        <div class="houses">House #3</div>
+                        <div class="houses">House #4</div>
+                        <div class="houses">House #4</div>
+                        <div class="houses">House #6</div>
+                        <div class="houses">House #7</div>
+                        <div class="houses">House #8</div>
+                        <div class="houses">House #9</div>
+                    </div>
+                    <div id="advert">Advertisements</div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+    <script src="/script.js"></script>
+    
+</body>
+</html>
