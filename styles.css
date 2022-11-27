@@ -155,7 +155,7 @@ a{
 
 @media (max-width: 768px) {
     body{
-        height: 130vh;
+        height: 140vh;
     }
     #nav{
         height: 18vh;
@@ -176,7 +176,7 @@ a{
     #nameLogo{
         width: 100%;
       font-size: x-large;
-      margin: 18px 110px 0px 0px;
+      margin: 13px 110px 0px 0px;
       /* background-color: aqua; */
     }
 
@@ -239,12 +239,6 @@ a{
       height: 5vh;
       /* background-color: aquamarine; */
   }
-  /* #arrow{
-      width: 90%;
-      color: white;
-      font-size: x-large;
-      margin: -50% 0% 0% 0%;
-  } */
   #mobileViewIcon {
       font-size: 40px;
       /* width: 100%; */
@@ -252,15 +246,11 @@ a{
       margin: -19% 0% 0% 85%;
       display: block;
       color: white;
-      /* background-color: #4168e0; */
-      
 }
-
-
 #mobileDiv{
     background-color: rgb(44, 44, 44);
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     text-align: center;
     margin: -1% 0% 0% 0%;
     display: grid;
@@ -269,7 +259,7 @@ a{
     position: static;
 }
 #mobileLinkMainDiv{
-    margin: 1% 0% 0% 5%;
+    margin: -1% 0% 0% 5%;
     position: absolute;
 }
 .mobileLinkDivs{
