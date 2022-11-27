@@ -144,12 +144,7 @@ a{
     height: 5vh;
     margin: 0px 0px 0px 58px;
 }
-#selectNum{
-    background-color: aqua;
-}
-#phoneInputDiv{
-    background-color: blue;
-}
+
 #phoneCode{
     width: 100%;
     height: 5.4vh;
@@ -189,7 +184,7 @@ a{
     background-color: gray;
     color: white;
 }
-.icon{
+#mobileViewIcon{
     display: none;
 }
 #mobileDiv{
@@ -200,7 +195,7 @@ a{
         height: 100vh;
     }
     #nav{
-        height: 10vh;
+        height: 18vh;
     }
     #menueItems{
       margin: 70px 0px 0px 50px;
@@ -211,13 +206,15 @@ a{
       display: none;
     }
     #logo{
-      width: 150px;
-      margin: 10px 0px 0px 10px;
-      height: 10vh;
+      width: 130px;
+      margin: 17px 0px 0px 20px;
+      height: 11vh;
     }
     #nameLogo{
+        width: 100%;
       font-size: x-large;
-      margin: 30px 0px 0px 0px;
+      margin: 8px 110px 0px 0px;
+      /* background-color: aqua; */
     }
 
     .aTag{
@@ -237,43 +234,90 @@ a{
       width: 300px;
       margin: -17px 0px 0px -78px;
   }
-  #searchDiv{
-      height: 5vh;
-  }
-  #searchBar{
-      width: 85%;
-      margin: 0% 0% 30% 7%;
-  }
-  #titleDiv{
-      margin: 50% 0% 0% 8%;
-      font-size: small;
-      width: 250px;
-  }
-  #filterDiv{
-      margin: 5% 0% 0% 70%; 
-      width: 55px;
-      font-size: medium;
-  }
-  #latestPostingDiv{
-      margin: 0% 0% 0% 28%;
-      width: 200px;
-  }
-  #downArrow{
-      margin: 0px 0px 0px 80px;
-  }
-  .icon {
-      width: 10%;
+  
+  #mobileViewIcon {
+      font-size: 40px;
+      /* width: 100%; */
       position: absolute;
-      margin: -15% 0% 0% 85%;
+      margin: -17% 0% 0% 85%;
       display: block;
-      
+      color: white;
 }
 #mobileDiv{
-    /* display: none; */
     background-color: rgb(22, 22, 22);
-    width: 50%;
+    width: 30%;
     height: 15vh;
     text-align: center;
     margin: 0% 0% 0% 50%;
+}
+#section{
+    width: 88.5%;
+    margin: 25% 0% 0% 5.5%;
+}
+#questionTitleDiv{
+    /* background-color: #4168e0; */
+    width: 80%;
+    font-size: small;
+    margin: 6% 0% 0% 8%;
+}
+#questionDesp{
+    /* background-color: #4bbfb8; */
+    margin: -3% 0% 0% 8%;
+    width: 90%;
+}
+#registerBtnDiv{
+    /* background-color: blue; */
+    width: 60%;
+    margin: 0% 0% 0% 9%;
+}
+#registerBtn{
+    width: 60%;
+    /* margin: 0% 0% 0% 0%; */
+    height: 6vh;
+}
+#loginCard{
+    width: 100%;
+    margin: 10% 0% 0% 0%;
+    height: 65vh;
+}
+#loginDiv{
+    margin: 0% 0% 8% 10.5%;
+}
+#forgetPassDiv{
+    /* background-color: #4168e0; */
+    width: 48%;
+    margin: 0% 0% 0% 40%;
+    font-size: medium;
+    text-align: right;
+}
+#loginBtnDiv{
+    margin: 0% 0% 0% 22%;
+    width: 60%;
+    /* background-color: blue; */
+}
+#loginBtn{
+    margin: 0% 0% 0% 30%;
+    width: 80%;
+    height: 6vh;
+}
+#phoneNumDiv{
+    margin: 0% 0% 0% 12%;
+    width: 75%;
+}
+#phoneCode{
+    /* background-color: #4168e0; */
+    height: 5.5vh;
+    border: none;
+}
+#phoneInputDiv{
+    width: 100%;
+    /* margin: 0% 0% 0% 0%; */
+}
+#phoneInput{
+    width: 100%;
+}
+#passwordDiv{
+    width: 76%;
+    margin: 10% 0% 0% 12%;
 }
 }
