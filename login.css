@@ -137,7 +137,7 @@ a{
     color: gray;
 }
 #phoneNumDiv{
-    background-color: #4168e0;
+    /* background-color: #4168e0; */
     display: grid;
     grid-template-columns: 27% 73%;
     width: 70%;
@@ -160,7 +160,7 @@ a{
     font-size: medium;
 }
 #passwordDiv{
-    background-color: #4168e0;
+    /* background-color: #4168e0; */
     width:70%;
     margin: 25px 0px 0px 58px;
 }
