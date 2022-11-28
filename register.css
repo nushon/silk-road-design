@@ -296,17 +296,19 @@ a{
     border-width: 80%;
     height: 3vh; */
 }
-#section{
+/* #section{
     display: grid;
     grid-template-columns: 80%;
     row-gap: 20%;
-}
+} */
 #registerCard{
     width: 100%;
     position: absolute;
-    margin: 0% 0% 0% -80%;
+    margin: 0% 0% 50% -80%;
 }
 #infoDiv{
+    width: 70%;
+    height: 60vh;
     margin: 0% 0% -60% 0%;
     position: relative;
 }
