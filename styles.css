@@ -248,13 +248,12 @@ a{
       color: white;
 }
 #mobileDiv{
+    display: none;
     background-color: rgb(44, 44, 44);
     width: 100%;
     height: 45vh;
     text-align: center;
     margin: -1% 0% 0% 0%;
-    display: grid;
-    grid-template-columns: 100%;
     text-align: left;
     position: static;
 }
