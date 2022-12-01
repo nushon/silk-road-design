@@ -135,6 +135,7 @@ a{
 }
 #searchCard{
     background-color: #4168e0;
+    height: 80vh;
 }
 #itemsCard{
     background-color: darkred;
@@ -163,6 +164,35 @@ a{
 }
 .houses{
     background-color: gray;
+    height: 40vh;
+}
+.houseImg{
+    height: 25vh;
+    background-image: url(./images/pexels-pixabay-271795.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    margin: 0% 0% 0% 0%;
+    position: relative;
+}
+.priceDiv{
+    background-color: aquamarine;
+    width: 55%;
+    height: 4vh;
+    margin: 83% 0% 0% 44.8%;
+    position: absolute;
+}
+.priceTitle{
+    margin: 5% 0% 0% 0%;
+}
+.houseIcons{
+    height: 2.5vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 26.8% 0% 0% 0%;
+
 }
 #middleNav{
     display: grid;
@@ -227,9 +257,11 @@ a{
     display: grid;
     grid-template-columns: 30% 60%;
     column-gap: 2%;
+    color: rgb(168, 168, 168);
 }
 #inputField{
     width: 100%;
+    margin: 13.5% 0% 0% 0%;
 }
 @media (max-width: 768px) {
     body{
