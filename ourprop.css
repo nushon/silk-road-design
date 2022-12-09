@@ -113,16 +113,21 @@ a{
     font-size: xx-small;
     /* height: 5vh; */
 }
-/* .iconDiv{
-} */
+#iconDiv{
+    width: 20%;
+    /* background-color: #4168e0; */
+    margin: 0% 0% 10% 0%;
+}
 #angleRight{
     font-size: medium;
     margin: 11% 0% 0% 28%;
     color: white;
 }
 #housesDiv{
+    width: 100%;
     /* background-color: blueviolet; */
     font-size: xx-small;
+    margin: 0% 0% 0% -38%;
 }
 /* Main Design  */
 #mainDiv{
@@ -155,6 +160,11 @@ a{
 }
 #advert{
     background-color: deeppink;
+    height: 93vh;
+}
+#advertTitle{
+    text-align: center;
+    margin: 100% 0% 0% 0%;
 }
 #displayHouses{
     display: grid;
@@ -180,19 +190,29 @@ a{
     background-color: aquamarine;
     width: 55%;
     height: 4vh;
-    margin: 83% 0% 0% 44.8%;
+    margin: 59.3% 0% 0% 44.8%;
     position: absolute;
 }
 .priceTitle{
-    margin: 5% 0% 0% 0%;
+    margin: 0% 0% 0% 5%;
 }
-.houseIcons{
-    height: 2.5vh;
+.houseIconsDiv{
+    height: 5vh;
     background-color: blue;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    margin: 26.8% 0% 0% 0%;
+    margin: 4.8% 0% 0% 0%;
 
+}
+
+.dollarSign{
+    font-size: small;
+    text-align: center;
+    /* margin: -70% 0% 0% 0%; */
+}
+.slash{
+    font-size: x-large;
+    /* margin: ; */
 }
 #middleNav{
     display: grid;
@@ -262,6 +282,28 @@ a{
 #inputField{
     width: 100%;
     margin: 13.5% 0% 0% 0%;
+}
+#loadDiv{
+    width: 10%;
+    margin: 4% 0% 0% 45%;
+    /* background-color: #4168e0; */
+}
+#loadButton{
+    width: 100%;
+    height: 5vh;
+    background-color: aqua;
+    border-radius: 6%;
+    border: none;
+}
+.descpHouses{
+    margin: -5% 0% 0% 0%;
+    background-color: #4168e0;
+}
+.descpSmallEle{
+    margin: 0% 0% 0% 0%;
+}
+#descpSmallDiv{
+    margin: -8% 0% 0% 0%;
 }
 @media (max-width: 768px) {
     body{
