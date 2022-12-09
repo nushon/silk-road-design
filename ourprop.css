@@ -164,7 +164,8 @@ a{
 }
 #advertTitle{
     text-align: center;
-    margin: 100% 0% 0% 0%;
+    margin: 80% 0% 0% 0%;
+    color: gray;
 }
 #displayHouses{
     display: grid;
@@ -188,21 +189,24 @@ a{
 }
 .priceDiv{
     background-color: aquamarine;
-    width: 55%;
-    height: 4vh;
-    margin: 59.3% 0% 0% 44.8%;
+    width: 56%;
+    height: 5vh;
+    margin: 56% 0% 0% 44.1%;
     position: absolute;
 }
 .priceTitle{
-    margin: 0% 0% 0% 5%;
+    margin: 4% 0% 0% 3%;
 }
 .houseIconsDiv{
     height: 5vh;
     background-color: blue;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    margin: 4.8% 0% 0% 0%;
+    margin: 1% 0% 0% 0%;
 
+}
+.houseIcons{
+    border: 1px solid gray;
 }
 
 .dollarSign{
@@ -211,7 +215,7 @@ a{
     /* margin: -70% 0% 0% 0%; */
 }
 .slash{
-    font-size: x-large;
+    font-size: larger;
     /* margin: ; */
 }
 #middleNav{
@@ -300,11 +304,17 @@ a{
     background-color: #4168e0;
 }
 .descpSmallEle{
-    margin: 0% 0% 0% 0%;
+    margin: -5% 0% 0% 0%;
 }
-#descpSmallDiv{
-    margin: -8% 0% 0% 0%;
+.descpSmallDiv{
+    margin: -6% 0% 0% 5%;
 }
+/* .bedroomsTitle{
+    margin: 0% 0% 0% 5%;
+} */
+/* .fa-solid{
+    
+} */
 @media (max-width: 768px) {
     body{
         height: 100vh;
