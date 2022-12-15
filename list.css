@@ -123,12 +123,6 @@ a{
     margin: 11% 0% 0% 28%;
     color: white;
 }
-#housesDiv{
-    width: 100%;
-    /* background-color: blueviolet; */
-    font-size: xx-small;
-    margin: 0% 0% 0% -38%;
-}
 /* Main Design  */
 #mainDiv{
     width: 92%;
@@ -142,22 +136,12 @@ a{
     background-color: rgb(204, 204, 204);
     height: 80vh;
 }
-/* #itemsCard{
-    background-color: darkred;
-} */
-/* #middleNav{
-    background-color: rgb(204, 204, 204);
-    width: 100%;
-} */
 #middleMain{
     display: grid;
     grid-template-columns: 75% 23%;
     column-gap: 2%;
     margin: 1.5% 0% 0% 0%;
 }
-/* #displayHouses{
-    background-color: darkgreen;
-} */
 #advert{
     background-color: white;
     height: 93vh;
@@ -167,70 +151,6 @@ a{
     margin: 80% 0% 0% 0%;
     color: gray;
 }
-#displayHouses{
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    column-gap: 2%;
-    row-gap: 2%;
-}
-.houses{
-    /* background-color: gray; */
-    
-    height: 40vh;
-}
-.houseCard{
-    border: 1px solid rgb(185, 185, 185);
-    background-color: white;
-}
-.houseImg{
-    height: 25vh;
-    background-image: url(./images/pexels-pixabay-271795.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
-    color: white;
-    margin: 0% 0% 0% 0%;
-    position: relative;
-}
-.priceDiv{
-    background-color: #4bbfb7b2;
-    width: 56%;
-    height: 5vh;
-    margin: 56% 0% 0% 44.1%;
-    position: absolute;
-}
-.priceTitle{
-    margin: 4% 0% 0% 3%;
-}
-.houseIconsDiv{
-    height: 5vh;
-    /* background-color: blue; */
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin: 1% 0% 0% 0%;
-
-}
-
-.houseIcons{
-    border: 1px solid rgb(185, 185, 185);
-    text-align: center;
-    color: #4bbfb8;
-}
-
-.dollarSign{
-    font-size: small;
-    text-align: center;
-    /* margin: -70% 0% 0% 0%; */
-}
-.slash{
-    font-size: larger;
-    /* margin: ; */
-}
-.spanStarIcon{
-    margin: 0% 0% 0% 0%;
-    text-align: right;
-    color: rgb(185, 185, 185);
-}
 #middleNav{
     background-color: rgb(204, 204, 204);
     width: 100%;
@@ -239,9 +159,6 @@ a{
     column-gap: 5%;
 
 }
-/* .middleNavItems{
-    background-color: #4168e0;
-} */
 #tabs{
     display: grid;
     grid-template-columns: 15% 15% 15%;
@@ -288,11 +205,6 @@ a{
     /* background-color: red; */
     color: rgb(168, 168, 168);
 }
-
-#viewGridDiv{
-    /* background-color: crimson; */
-    margin: 0% 0% 0% 0%;
-}
 #sort{
     display: grid;
     grid-template-columns: 30% 60%;
@@ -322,23 +234,7 @@ a{
     margin-bottom: 5%;
     font-weight: 900;
 }
-.descpHouses{
-    margin: -5% 0% 0% 0%;
-    /* background-color: #4168e0; */
-}
-.descpSmallEle{
-    margin: -5% 0% 0% 0%;
-}
-.descpSmallDiv{
-    margin: -6% 0% 0% 5%;
-}
-.bedroomTitle{
-    margin: 0% 0% 0% 5%;
-}
-.houseIconsNum{
-    color: black;
-    margin: 0% 0% 0% 0%;
-}
+
 #cardSearchInput{
     width: 85%;
     height: 3.5vh;
@@ -511,6 +407,58 @@ footer{
 }
 .footerRecentText{
     margin-top: 10%;
+}
+.houseList{
+    height: 20vh;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    column-gap: 5%;
+}
+.listImageDiv{
+    background-color: #20b2aa;
+}
+.listInfoDiv{
+    background-color: coral;
+    margin: 0% 7.5% 0% 0%;
+}
+.infoAndbtn{
+    display: grid;
+    grid-template-columns: 60% 27%;
+    column-gap: 13%;
+}
+.infoDiv{
+    background-color: #4bbfb8;
+    height: 10vh;
+    margin-top: 6%;
+}
+.btnDiv{
+    background-color: black;
+    height: 5vh;
+    margin-top: 12%;
+}
+.infoTitle{
+    margin: -2% 0% 0% 0%;
+}
+.infoSmallEle{
+    margin: -2.5% 0% 0% 0%;
+}
+.infoPriceTitle{
+    font-size: 450;
+    margin: 4% 0% 0% 5%;
+    color: white;
+
+}
+.infoMonth{
+    font-size: x-small;
+}
+.dollarSign{
+    font-size: x-small;
+    margin: -80% 0% 0% 0%;
+}
+.spanStarIcon{
+    margin: 0% 0% 50% 120%;
 }
 @media (max-width: 768px) {
     body{

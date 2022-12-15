@@ -28,8 +28,8 @@
                 <!-- menue items  -->
                 <div id="menueItems">
                         <div class="items" id="itemLeft">
-                            <a class="aTag" id="home" href="./home.html">Home</a>
-                            <a class="aTag" id="prop" href=""><b>Our Properties</b></a>
+                            <a class="aTag" id="home" href="./index.html">Home</a>
+                            <a class="aTag" id="prop" href="./ourprop.html"><b>Our Properties</b></a>
                         </div>
                         
                         <div class="items" id="itemRight">
@@ -83,7 +83,80 @@
 
     <main>
         <div id="mainDiv">
-            <div id="searchCard">Search Card</div>
+            <div id="searchCard">
+                <div id="searchCardSearchDiv">
+                    <h4 id="searchCardSearchText">Search</h4>
+                    <div id="searchCardSearchDivInput">
+                        <input id="cardSearchInput" type="text" placeholder="    Search"> <i id="cardSearchInputIcon" class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div id="cardCategoryDiv">
+                    <p class="cardTitleText">Category</p>
+                    <div class="cardCategoryInputDivs">
+                        <div id="cardCategoryInputDiv1">
+                            <input class="mostRecentInput" type="text" placeholder="    Most Recent">
+                        </div>
+                        <div id="cardCategoryInputDiv2">
+                            <select name="category" id="categoryOption">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="cardLocationDiv">
+                    <p class="cardTitleText">Location</p>
+                    <div class="cardCategoryInputDivs">
+                        <div id="cardCategoryInputDiv1">
+                            <input class="mostRecentInput" type="text" placeholder="    Most Recent">
+                        </div>
+                        <div id="cardCategoryInputDiv2">
+                            <select name="category" id="categoryOption">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="cardBedroomsDiv">
+                    <p class="cardTitleText">Bedrooms</p>
+                    <div class="cardCategoryInputDivs">
+                        <div id="cardCategoryInputDiv1">
+                            <input class="mostRecentInput" type="text" placeholder="    Most Recent">
+                        </div>
+                        <div id="cardCategoryInputDiv2">
+                            <select name="category" id="categoryOption">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="cardLocationDiv">
+                    <p class="cardTitleText">Bathrooms</p>
+                    <div class="cardCategoryInputDivs">
+                        <div id="cardCategoryInputDiv1">
+                            <input class="mostRecentInput" type="text" placeholder="    Most Recent">
+                        </div>
+                        <div id="cardCategoryInputDiv2">
+                            <select name="category" id="categoryOption">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div id="pricesDiv">
+                    <label for="prices">
+                        <p id="priceText">Price: $00.00 - $100,000.00</p>
+                        <input id="inputRange" type="range" min="00.00" max="10,000.00" value="100">
+                    </label>
+                </div>
+                <div id="doneBtnDiv">
+                    <button id="doneBtn">Done</button>
+                </div>
+            </div>
             <div id="itemsCard">
                 <div id="middleNav">
                     <div class="middleNavItems" id="tabs">
@@ -122,45 +195,25 @@
                             </div>
                             <div class="houseCard">
                                 <div class="descpHouses">
-                                    <p><b>3 bedroom Townhouse</b></p>
+                                    <p><b class="bedroomTitle">3 bedroom Townhouse</b></p>
                                    <div class="descpSmallDiv">
                                     <p class="descpSmallEle"><small><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia Liberia</small></p>
-                                    <p class="descpSmallEle"><small>Peter Paul</small></p>
-                                   </div>
-                                </div>
-                                <div id="houseIconsDiv" class="houseIconsDiv">
-                                    <div class="houseIcons">
-                                        <i class="fa-solid fa-caret-up" style="font-size: 40px; margin: -4% 0% 0% 10%;"></i>
-                                    </div>
-                                    <div class="houseIcons"><i class="fa-solid fa-book"></i></div>
-                                    <div class="houseIcons">
-                                        <i class="fa-solid fa-location-crosshairs"></i>
-                                    </div>
-                                    <div class="houseIcons">
-                                        <i class="fa-solid fa-desktop"> 2</i> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="houses">
-                            <div class="houseImg">
-                                <div class="priceDiv">
-                                    <h4 class="priceTitle"><span class="dollarSign">  $</span> 500.00<span class="slash">/</span>month</h4>
-                                </div>
-                            </div>
-                            <div class="houseCard">
-                                <div class="descpHouses">
-                                    <p><b>  6 bedroom Townhouse</b></p>
-                                   <div class="descpSmallDiv">
-                                    <p class="descpSmallEle"><small><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia Liberia</small></p>
-                                    <p class="descpSmallEle"><small>Carlos s. Nah</small></p>
+                                    <p class="descpSmallEle"><small>Peter Paul</small><span class="spanStarIcon"><i class="fa-regular fa-star"></i></span></p>
                                    </div>
                                 </div>
                                 <div class="houseIconsDiv">
-                                    <div class="houseIcons">2</div>
-                                    <div class="houseIcons">1</div>
-                                    <div class="houseIcons">3</div>
-                                    <div class="houseIcons">2</div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-triangle-exclamation"><span class="houseIconsNum">  2</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-book"><span class="houseIconsNum">  1</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-location-crosshairs"><span class="houseIconsNum">  3</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-desktop"> <span class="houseIconsNum">  2</span></i> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -172,17 +225,55 @@
                             </div>
                             <div class="houseCard">
                                 <div class="descpHouses">
-                                    <p><b>  2 bedroom Townhouse</b></p>
+                                    <p><b class="bedroomTitle">6 bedroom Townhouse</b></p>
+                                   <div class="descpSmallDiv">
+                                    <p class="descpSmallEle"><small><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia Liberia</small></p>
+                                    <p class="descpSmallEle"><small>Carlos S. Nah</small><span class="spanStarIcon"><i class="fa-regular fa-star"></i></span></p>
+                                   </div>
+                                </div>
+                                <div class="houseIconsDiv">
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-triangle-exclamation"><span class="houseIconsNum">  2</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-book"><span class="houseIconsNum">  1</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-location-crosshairs"><span class="houseIconsNum">  3</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-desktop"><span class="houseIconsNum">  2</span></i> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="houses">
+                            <div class="houseImg">
+                                <div class="priceDiv">
+                                    <h4 class="priceTitle"><span class="dollarSign">  $</span> 500.00<span class="slash">/</span>month</h4>
+                                </div>
+                            </div>
+                            <div class="houseCard">
+                                <div class="descpHouses">
+                                    <p><b class="bedroomTitle">2 bedroom Townhouse</b></p>
                                    <div class="descpSmallDiv">
                                     <p class="descpSmallEle"><small> <i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia Liberia</small></p>
-                                    <p class="descpSmallEle"><small>Nathan Siafa</small></p>
+                                    <p class="descpSmallEle"><small>Nathan Siafa</small><span class="spanStarIcon"><i class="fa-regular fa-star"></i></span></p>
                                    </div>
                                 </div>
                                 <div class="houseIconsDiv">
-                                    <div class="houseIcons">2</div>
-                                    <div class="houseIcons">1</div>
-                                    <div class="houseIcons">3</div>
-                                    <div class="houseIcons">2</div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-triangle-exclamation"><span class="houseIconsNum">  2</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-book"><span class="houseIconsNum">  1</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-location-crosshairs"><span class="houseIconsNum"> 3</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-desktop"><span class="houseIconsNum"> 2</span></i> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -194,17 +285,25 @@
                             </div>
                             <div class="houseCard">
                                 <div class="descpHouses">
-                                    <p><b>  3 bedroom Townhouse</b></p>
+                                    <p><b class="bedroomTitle">3 bedroom Townhouse</b></p>
                                    <div class="descpSmallDiv">
                                     <p class="descpSmallEle"><small><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia Liberia</small></p>
-                                    <p class="descpSmallEle"><small>James K. Gaye Jr</small></p>
+                                    <p class="descpSmallEle"><small>James K. Gaye Jr</small><span class="spanStarIcon"><i class="fa-regular fa-star"></i></span></p>
                                    </div>
                                 </div>
                                 <div class="houseIconsDiv">
-                                    <div class="houseIcons">2</div>
-                                    <div class="houseIcons">1</div>
-                                    <div class="houseIcons">3</div>
-                                    <div class="houseIcons">2</div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-triangle-exclamation"><span class="houseIconsNum">  2</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-book"><span class="houseIconsNum">  1</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-location-crosshairs"> <span class="houseIconsNum">  3</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-desktop"><span class="houseIconsNum">  2</span></i> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -216,17 +315,25 @@
                             </div>
                             <div class="houseCard">
                                 <div class="descpHouses">
-                                    <p><b>  6 bedroom Townhouse</b></p>
+                                    <p><b class="bedroomTitle">6 bedroom Townhouse</b></p>
                                    <div class="descpSmallDiv">
                                     <p class="descpSmallEle"><small><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia Liberia</small></p>
-                                    <p class="descpSmallEle"><small>Samuel B. Morris</small></p>
+                                    <p class="descpSmallEle"><small>Samuel B. Morris</small><span class="spanStarIcon"><i class="fa-regular fa-star"></i></span></p>
                                    </div>
                                 </div>
                                 <div class="houseIconsDiv">
-                                    <div class="houseIcons">2</div>
-                                    <div class="houseIcons">1</div>
-                                    <div class="houseIcons">3</div>
-                                    <div class="houseIcons">2</div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-triangle-exclamation"><span class="houseIconsNum">  2</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-book"><span class="houseIconsNum">  1</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-location-crosshairs"><span class="houseIconsNum">  3</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-desktop"><span class="houseIconsNum">  2</span></i> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -238,17 +345,25 @@
                             </div>
                             <div class="houseCard">
                                 <div class="descpHouses">
-                                    <p><b>  3 bedroom Townhouse</b></p>
+                                    <p><b class="bedroomTitle">3 bedroom Townhouse</b></p>
                                    <div class="descpSmallDiv">
                                     <p class="descpSmallEle"><small><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia Liberia</small></p>
-                                    <p class="descpSmallEle"><small>Blessing Boaslah</small></p>
+                                    <p class="descpSmallEle"><small>Blessing Boaslah</small><span class="spanStarIcon"><i class="fa-regular fa-star"></i></span></p>
                                    </div>
                                 </div>
                                 <div class="houseIconsDiv">
-                                    <div class="houseIcons">2</div>
-                                    <div class="houseIcons">1</div>
-                                    <div class="houseIcons">3</div>
-                                    <div class="houseIcons">2</div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-triangle-exclamation"><span class="houseIconsNum">  2</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-book"><span class="houseIconsNum">  1</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-location-crosshairs"><span class="houseIconsNum">  3</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-desktop"><span class="houseIconsNum"> 2</span></i> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -260,17 +375,25 @@
                             </div>
                             <div class="houseCard">
                                 <div class="descpHouses">
-                                    <p><b>  3 bedroom Townhouse</b></p>
+                                    <p><b class="bedroomTitle">3 bedroom Townhouse</b></p>
                                    <div class="descpSmallDiv">
                                     <p class="descpSmallEle"><small> <i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia Liberia</small></p>
-                                    <p class="descpSmallEle"><small>Benjamin A. Ngufua</small></p>
+                                    <p class="descpSmallEle"><small>Benjamin A. Ngufua</small><span class="spanStarIcon"><i class="fa-regular fa-star"></i></span></p>
                                    </div>
                                 </div>
                                 <div class="houseIconsDiv">
-                                    <div class="houseIcons">2</div>
-                                    <div class="houseIcons">1</div>
-                                    <div class="houseIcons">3</div>
-                                    <div class="houseIcons">2</div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-triangle-exclamation"><span class="houseIconsNum">  2</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-book"><span class="houseIconsNum">  1</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-location-crosshairs"><span class="houseIconsNum">  3</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-desktop"><span class="houseIconsNum">  2</span></i> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -281,17 +404,25 @@
                         </div>
                         <div class="houseCard">
                             <div class="descpHouses">
-                                <p><b>  3 bedroom Townhouse</b></p>
+                                <p ><b class="bedroomTitle">3 bedroom Townhouse</b></p>
                                <div class="descpSmallDiv">
                                 <p class="descpSmallEle"><small> <i class="fa-solid fa-location-dot"></i> 9th Street, Monrovia Liberia</small></p>
-                                <p class="descpSmallEle"><small>George M. Weah</small></p>
+                                <p class="descpSmallEle"><small>George M. Weah</small><span class="spanStarIcon"><i class="fa-regular fa-star"></i></span></p>
                                </div>
                             </div>
                             <div class="houseIconsDiv">
-                                <div class="houseIcons">2</div>
-                                <div class="houseIcons">1</div>
-                                <div class="houseIcons">3</div>
-                                <div class="houseIcons">2</div>
+                                <div class="houseIcons">
+                                    <i class="fa-solid fa-triangle-exclamation"> <span class="houseIconsNum">  2</span></i>
+                                </div>
+                                <div class="houseIcons">
+                                    <i class="fa-solid fa-book"><span class="houseIconsNum">  1</span></i>
+                                </div>
+                                <div class="houseIcons">
+                                    <i class="fa-solid fa-location-crosshairs"><span class="houseIconsNum">  3</span></i>
+                                </div>
+                                <div class="houseIcons">
+                                    <i class="fa-solid fa-desktop"><span class="houseIconsNum">  2</span></i> 
+                                </div>
                             </div>
                         </div></div>
                         <div class="houses">
@@ -302,17 +433,25 @@
                             </div>
                             <div class="houseCard">
                                  <div class="descpHouses">
-                                    <p><b>  3 bedroom Townhouse</b></p>
+                                    <p><b class="bedroomTitle">3 bedroom Townhouse</b></p>
                                    <div class="descpSmallDiv">
                                     <p class="descpSmallEle"><small><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia Liberia</small></p>
-                                    <p class="descpSmallEle"><small>Peter Paul</small></p>
+                                    <p class="descpSmallEle"><small>Peter Paul</small><span class="spanStarIcon"><i class="fa-regular fa-star"></i></span></p>
                                    </div>
                                 </div>
                                 <div class="houseIconsDiv">
-                                    <div class="houseIcons">2</div>
-                                    <div class="houseIcons">1</div>
-                                    <div class="houseIcons">3</div>
-                                    <div class="houseIcons">2</div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-triangle-exclamation"><span class="houseIconsNum">  2</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-book"><span class="houseIconsNum">  1</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-location-crosshairs"><span class="houseIconsNum">  3</span></i>
+                                    </div>
+                                    <div class="houseIcons">
+                                        <i class="fa-solid fa-desktop"><span class="houseIconsNum">  2</span></i> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -327,11 +466,68 @@
         </div>
         <br>
         <div id="loadDiv">
-            <button id="loadButton"><p><b>Load more</b></p></button>
+            <button id="loadButton"><p id="loadButtonText"><b>Load more</b></p></button>
         </div>
     </main>
 
     <footer>
+        <div id="footerMain">
+            <div class="footerMainColumn">
+                <div class="footerFirstColumn" id="footerContact">
+                    <h3>CONTACT US</h3>
+                </div>
+                <div class="footerFirstColumn" id="footerLocation">
+                    <p>Stephen Allen Tolbert Estate, <br> Monrovia, Liberia, West Africa</p>
+                </div>
+                <div class="footerFirstColumn" id="footerContactNum">
+                    <p>+231 778 591 290 <br> www.mayoinc.com</p>
+                </div>
+                <div class="footerFirstColumn" id="footerIcons">
+                    <i class="fa-brands fa-instagram"></i> 
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div class="footerMainColumn">
+                <div class="footerFirstColumn" id="footerQuickLinks">
+                    <h3>QUICK LINKS</h3>
+                </div>
+                <div id="quickLinksMain">
+                    <div >
+                        <p class="quickLinksText">Register</p>
+                        <p class="quickLinksText">Login</p>
+                        <p class="quickLinksText">Post Property</p>
+                        <p class="quickLinksText">Our Recent Postings</p>
+                        <p class="quickLinksText">FAQ</p>
+                        <p class="quickLinksText">Contact Us</p>
+                    </div>
+                    <div>
+                        <p class="quickLinksText">About Us</p>
+                        <p class="quickLinksText">Privacy Policy</p>
+                        <p class="quickLinksText">Terms & Conditions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footerMainColumn" id="recentMain">
+                <div class="footerFirstColumn" id="footerRecent">
+                    <h3>OUR RECENT POSTINGS</h3>
+                </div>
+                <div>
+                    <p>3 Bedroom Apartment at Nushon Heights <br><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia, Liberia </p>
+                </div>
+                <div class="footerRecentText">
+                    <p>3 Bedroom Apartment at Nushon Heights <br><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia, Liberia </p>
+                </div>
+                <div class="footerRecentText">
+                    <p>3 Bedroom Apartment at Nushon Heights <br><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia, Liberia </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="footerBottom">
+            <div id="copyRight"><p id="copyRightText"><b>Copyright &copy 2022 - Nushon - All rights reserved</b></p></div>
+            <div id="footerLogo"><h3 id="copyRightLogo">MAYO INC</h3></div>
+        </div>
     </footer>
     <script src="/script.js"></script>
     
