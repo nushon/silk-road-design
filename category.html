@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slik Road - Home</title>
+    <link rel="stylesheet" href="./category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<body>
+    <header>
+        <nav>
+            <div id="nav">
+                <div id="logo">
+                    <a href="./index.html"><h1 id="nameLogo"><b>MAYO INC</b></h1></a>
+                </div>
+                <div id="menueItems">
+                        <div class="items" id="itemLeft">
+                            <a class="aTag" id="home" href="./index.html">Home</a>
+                            <a class="aTag" id="prop" href="./ourprop.html"><b>Our Properties</b></a>
+                        </div>
+                        
+                        <div class="items" id="itemRight">
+                            <a class="aTag" id="login" href="./login.html">Login</a>
+                            <a class="aTag" id="reg" href="./register.html">Register</a>
+                        </div>
+                        <hr id="hr">
+                        <div id="homeAndHouseDiv">
+                            <div id="homeDiv">
+                                <a href="" id="homeA">Home</a>
+                            </div>
+                            <div id="housesDiv">
+                                <a href="" id="housesA">Houses</a>
+                            </div>
+                            <div id="iconDiv">
+                                <i id="angleRight" class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div id="categoryDiv">
+                                <a href="" id="categoryBreadcrum"><b>Category</b></a>
+                            </div>
+                        </div>
+                </div>
+                
+                <button id="postProp">Post a Property</button>
+                
+            </div>
+
+                <a href="javascript:void(0);" id="mobileIcon" onclick="mobileView()">
+                    <i class="fa-solid fa-bars" id="mobileViewIcon"></i> 
+                </a>
+           
+        </nav>
+        <div id="mobileDiv">
+            <div id="mobileLinkMainDiv">
+                <div class="mobileLinkDivs">
+                    <a class="aTag" id="home" href="./home.html"><h4>Home</h4></a>
+                </div>
+                <div class="mobileLinkDivs">
+                    <a class="aTag" id="prop" href=""><h4>Our Properties</h4></a>
+                </div>
+                <div class="mobileLinkDivs">
+                    <a class="aTag" id="login" href="./login.html"><h4>Login</h4></a>
+                </div>
+                <div class="mobileLinkDivs">
+                    <a class="aTag" id="reg" href="./register.html"><h4>Register</h4></a>
+                </div>
+                <div class="mobileLinkDivs">
+                    <a class="aTag" id="postPropMobile" href=""><h4>Post a Property</h4></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="mainDiv">
+            <div id="searchCard">
+                <div id="searchCardSearchDiv">
+                    <h4 id="searchCardSearchText">Search</h4>
+                    <div id="searchCardSearchDivInput">
+                        <input id="cardSearchInput" type="text" placeholder="    Search"> <i id="cardSearchInputIcon" class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div id="cardCategoryDiv">
+                    <p class="cardTitleText">Category</p>
+                    <div class="cardCategoryInputDivs">
+                        <div id="cardCategoryInputDiv1">
+                            <input class="mostRecentInput" type="text" placeholder="    Most Recent">
+                        </div>
+                        <div id="cardCategoryInputDiv2">
+                            <select name="category" id="categoryOption">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="cardLocationDiv">
+                    <p class="cardTitleText">Location</p>
+                    <div class="cardCategoryInputDivs">
+                        <div id="cardCategoryInputDiv1">
+                            <input class="mostRecentInput" type="text" placeholder="    Most Recent">
+                        </div>
+                        <div id="cardCategoryInputDiv2">
+                            <select name="category" id="categoryOption">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="cardBedroomsDiv">
+                    <p class="cardTitleText">Bedrooms</p>
+                    <div class="cardCategoryInputDivs">
+                        <div id="cardCategoryInputDiv1">
+                            <input class="mostRecentInput" type="text" placeholder="    Most Recent">
+                        </div>
+                        <div id="cardCategoryInputDiv2">
+                            <select name="category" id="categoryOption">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="cardLocationDiv">
+                    <p class="cardTitleText">Bathrooms</p>
+                    <div class="cardCategoryInputDivs">
+                        <div id="cardCategoryInputDiv1">
+                            <input class="mostRecentInput" type="text" placeholder="    Most Recent">
+                        </div>
+                        <div id="cardCategoryInputDiv2">
+                            <select name="category" id="categoryOption">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div id="pricesDiv">
+                    <label for="prices">
+                        <p id="priceText">Price: $00.00 - $100,000.00</p>
+                        <input id="inputRange" type="range" min="00.00" max="10,000.00" value="100">
+                    </label>
+                </div>
+                <div id="doneBtnDiv">
+                    <button id="doneBtn">Done</button>
+                </div>
+            </div>
+            <div id="itemsCard">
+                <div id="middleNav">
+                    <div class="middleNavItems" id="tabs">
+                        <div class="tabs"><a href=""><h3 id="allTextTab">All</h3></a></div>
+                        <div class="tabs"><a href=""><h3 id="viewsTextTab">Views</h3></a></div>
+                        <div class="tabs"><a href=""><h3 id="saleTextTab">Sale</h3></a></div>
+                    </div>
+                    <div class="middleNavItems" id="view">
+                        <div id="viewTextDiv"><a href=""><h3 id="viewText">View</h3></a></div>
+                        <div id="allIconDiv">
+                            <div id="viewListDiv" >
+                                <a href="/list.html"><i id="listView" class="fa-solid fa-bars"></i></a>
+                            </div>
+                            <div id="viewGridDiv">
+                                <a href="/ourprop.html"><i id="gridView" class="fa-solid fa-grip"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="middleNavItems" id="sort">
+                        <div>
+                            <h3>Sort by</h3>
+                        </div>
+                        <div>
+                            <input id="inputField" type="text" placeholder="Most Recent">
+                        </div>
+                    </div>
+                </div>
+                <div id="middleMain">
+                    <div id="displayCategory">
+                        <div id="categoryImg">
+                            <img class="image" src="./images/pexels-binyamin-mellish-1396132.jpg" alt="">
+                        </div> 
+                    </div>
+                    <div id="advert">
+                        <br><br><br><br>
+                        <h3 id="advertTitle">Advertisements</h3>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br>
+        <div id="loadDiv">
+            <button id="loadButton"><p id="loadButtonText"><b>Load more</b></p></button>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footerMain">
+            <div class="footerMainColumn">
+                <div class="footerFirstColumn" id="footerContact">
+                    <h3>CONTACT US</h3>
+                </div>
+                <div class="footerFirstColumn" id="footerLocation">
+                    <p>Stephen Allen Tolbert Estate, <br> Monrovia, Liberia, West Africa</p>
+                </div>
+                <div class="footerFirstColumn" id="footerContactNum">
+                    <p>+231 778 591 290 <br> www.mayoinc.com</p>
+                </div>
+                <div class="footerFirstColumn" id="footerIcons">
+                    <i class="fa-brands fa-instagram"></i> 
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div class="footerMainColumn">
+                <div class="footerFirstColumn" id="footerQuickLinks">
+                    <h3>QUICK LINKS</h3>
+                </div>
+                <div id="quickLinksMain">
+                    <div >
+                        <p class="quickLinksText">Register</p>
+                        <p class="quickLinksText">Login</p>
+                        <p class="quickLinksText">Post Property</p>
+                        <p class="quickLinksText">Our Recent Postings</p>
+                        <p class="quickLinksText">FAQ</p>
+                        <p class="quickLinksText">Contact Us</p>
+                    </div>
+                    <div>
+                        <p class="quickLinksText">About Us</p>
+                        <p class="quickLinksText">Privacy Policy</p>
+                        <p class="quickLinksText">Terms & Conditions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footerMainColumn" id="recentMain">
+                <div class="footerFirstColumn" id="footerRecent">
+                    <h3>OUR RECENT POSTINGS</h3>
+                </div>
+                <div>
+                    <p>3 Bedroom Apartment at Nushon Heights <br><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia, Liberia </p>
+                </div>
+                <div class="footerRecentText">
+                    <p>3 Bedroom Apartment at Nushon Heights <br><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia, Liberia </p>
+                </div>
+                <div class="footerRecentText">
+                    <p>3 Bedroom Apartment at Nushon Heights <br><i class="fa-solid fa-location-dot"></i> 45 Circle Dr, Monrovia, Liberia </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="footerBottom">
+            <div id="copyRight"><p id="copyRightText"><b>Copyright &copy 2022 - Nushon - All rights reserved</b></p></div>
+            <div id="footerLogo"><h3 id="copyRightLogo">MAYO INC</h3></div>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+    
+</body>
+</html>
