@@ -145,6 +145,7 @@ a{
 #advert{
     background-color: white;
     height: 93vh;
+    margin-top: 6.5%;
 }
 #advertTitle{
     text-align: center;
@@ -415,13 +416,16 @@ footer{
     display: grid;
     grid-template-columns: 25% 70%;
     column-gap: 5%;
+    margin-top: 2%;
 }
 .listImageDiv{
     background-color: #20b2aa;
+    height: 20vh;
 }
 .listInfoDiv{
-    background-color: coral;
+    /* background-color: w; */
     margin: 0% 7.5% 0% 0%;
+    /* border: 1px solid gray; */
 }
 .infoAndbtn{
     display: grid;
@@ -429,12 +433,12 @@ footer{
     column-gap: 13%;
 }
 .infoDiv{
-    background-color: #4bbfb8;
+    /* background-color: #4bbfb8; */
     height: 10vh;
     margin-top: 6%;
 }
 .btnDiv{
-    background-color: black;
+    background-color: #20b2aa;
     height: 5vh;
     margin-top: 12%;
 }
@@ -442,7 +446,7 @@ footer{
     margin: -2% 0% 0% 0%;
 }
 .infoSmallEle{
-    margin: -2.5% 0% 0% 0%;
+    margin: -1% 0% 0% 0%;
 }
 .infoPriceTitle{
     font-size: 450;
@@ -459,6 +463,27 @@ footer{
 }
 .spanStarIcon{
     margin: 0% 0% 50% 120%;
+    color: gray;
+}
+.bottomDiv{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 4.5% 0% 0% 0%;
+    text-align: center;
+}
+.houseIcons{
+    border: 1px solid gray;
+    color: #20b2aa;
+}
+.houseIconsNum{
+    color: gray;
+}
+img {
+    height: 20vh;
+    width: 100%;
+}
+.displayHouses{
+    border: gray;
 }
 @media (max-width: 768px) {
     body{
