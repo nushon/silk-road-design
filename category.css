@@ -110,11 +110,15 @@ a{
     /* margin: 0% 0% 0% -100%; */
     margin: 17px 0px 0px -50px;
 }
-#homeDiv{
-    /* background-color: blue; */
-    font-size: xx-small;
-    color: green;
-    /* height: 5vh; */
+#homeA{
+    margin: 0% 0% 30% 0%;
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.267);
+}
+#housesA{
+    margin: 0% 0% 30% 0%;
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.267);
 }
 #iconDiv{
     width: 20%;
