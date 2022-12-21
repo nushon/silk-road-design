@@ -228,25 +228,7 @@ a{
     width: 100%;
     margin: 13.5% 0% 0% 0%;
 }
-#loadDiv{
-    width: 13%;
-    margin: 4% 0% 0% 43.7%;
-    /* background-color: #4168e0; */
-}
-#loadButton{
-    width: 100%;
-    height: 5vh;
-    background-color: rgb(117, 117, 117);
-    border-radius: 6px;
-    border: none;
-}
-#loadButtonText{
-    color: white;
-    text-align: center;
-    /* margin-top: -1%; */
-    margin-bottom: 5%;
-    font-weight: 900;
-}
+/*  */
 
 #cardSearchInput{
     width: 85%;
@@ -437,20 +419,92 @@ footer{
     display: grid;
     grid-template-columns: 75% 25%;
     height: 20vh;
+    color: gray;
 }
-#categoryInfoTitleDiv{
+/* #categoryInfoTitleDiv{
     background-color: #20b2aa;
-}
-#categoryInfoPriceDiv{
+} */
+/* #categoryInfoPriceDiv{
     background-color: antiquewhite;
+} */
+#categoryPriceDiv{
+    width: 100%;
+    height: 8vh;
+    background-color: #20b2abb4;
+    margin-top: 15%;
+}
+#infoPriceTitle{
+    font-size: x-large;
+    margin: 10% 0% 0% 5%;
+    color: white;
+
+}
+.infoMonth{
+    font-size: medium;
+}
+.dollarSign{
+    font-size: x-small;
+    margin: -80% 0% 0% 0%;
 }
 .infoSmallEle{
-    margin: -4.5% 0% 0% 0%;
+    margin: -2.5% 0% 0% 0%;
 }
 .bottomDiv{
     display: grid;
     grid-template-columns: 15% 15% 15% 15%;
-    margin-top: 2%;
+    margin-top: 4%;
+}
+#contactAgentDiv{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+    color: gray;
+}
+/* #callAgent{
+    background-color: #4168e0;
+}
+#emailAgent{
+    background-color: aquamarine;
+} */
+.agentDetailBtn{
+    width: 100%;
+    height: 6vh;
+    border: none;
+    border-radius: 6px;
+    background-color: gray;
+    color: white;
+    font-size: large;
+    
+}
+#listAvailiable{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    column-gap: 5%;
+    text-align: left;
+    color: gray;
+}
+ul{
+    list-style-type: none;
+    font-size: large;
+    float: left;
+    
+}
+#sharePropertyIcons{
+    margin-top: -2%;
+    font-size: x-large;
+    color: gray;
+}
+#sharePropertyMapDiv{
+    color: gray;
+}
+#propertyDescription{
+    color: gray;
+}
+#sharePropertyDiv{
+    color: gray;
+}
+#mapImage{
+    width: 73%;
 }
 @media (max-width: 768px) {
     body{
